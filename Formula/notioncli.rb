@@ -1,24 +1,24 @@
 class Notioncli < Formula
   desc "A CLI for the Notion API"
   homepage "https://github.com/donutdaniel/notioncli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/donutdaniel/notioncli/releases/download/v0.1.0/notioncli-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d57e91562efcb2d41de7f21f8c00de6d817742c21eaee92c0067cd8840404f7f"
+      url "https://github.com/donutdaniel/notioncli/releases/download/v0.1.1/notioncli-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "70a85dd05b5e2925a12aa3028522999903ad86c0aa0d8ded17265eaf9ffae579"
     end
     on_intel do
-      url "https://github.com/donutdaniel/notioncli/releases/download/v0.1.0/notioncli-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "4a924921b4bede7926a3ca90bc5d08ad0bf2618a8a8acd9c2d9d07c1390e1976"
+      url "https://github.com/donutdaniel/notioncli/releases/download/v0.1.1/notioncli-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "2b77b0692fae2912a1f1182a062476c4033982f4ed7d75a09729c0f3487439a1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/donutdaniel/notioncli/releases/download/v0.1.0/notioncli-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fd5047b940a8972f12f80dce1ec82e177de4dd93d3bd609fc1ec37e3589c46cf"
+      url "https://github.com/donutdaniel/notioncli/releases/download/v0.1.1/notioncli-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ac73de444d41bf4f8a4d5b8f9e969d58fdda11a490f9c53b55fc51145e800226"
     end
   end
 
