@@ -1,15 +1,29 @@
 class Slackcli < Formula
   desc "A CLI for the Slack Web API"
   homepage "https://github.com/donutdaniel/slackcli"
-  url "https://github.com/donutdaniel/slackcli/archive/6e28f66d11e03baf67c1c9747b6ea298eef241b7.tar.gz"
-  sha256 "a9ffcb6f1b422801e721a48d95f206a43bb0e9e1652e8f67aad94e1cbda66923"
   version "0.1.0"
   license "MIT"
 
-  depends_on "rust" => :build
+  on_macos do
+    on_arm do
+      url "https://github.com/donutdaniel/slackcli/releases/download/v0.1.0/slackcli-v0.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "bf6215510ff41a23c189e3e48716af01f929bd61c8e31797250e8bee35c0f727"
+    end
+    on_intel do
+      url "https://github.com/donutdaniel/slackcli/releases/download/v0.1.0/slackcli-v0.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f680e52aea70a939694206556b85982b01fd37b2c012d292497802495aec8495"
+    end
+  end
+
+  on_linux do
+    on_intel do
+      url "https://github.com/donutdaniel/slackcli/releases/download/v0.1.0/slackcli-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "96e385ee3bfa0c80f61f5559431ecac4b787abaf3a75336001173c571f5142f6"
+    end
+  end
 
   def install
-    system "cargo", "install", *std_cargo_args
+    bin.install "slackcli"
   end
 
   test do
