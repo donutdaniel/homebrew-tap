@@ -7,18 +7,18 @@ class Slackcli < Formula
   on_macos do
     on_arm do
       url "https://github.com/donutdaniel/slackcli/releases/download/v0.1.1/slackcli-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ef007a0667bdf7ca7a55b0d0c0bc32956934661896abcd31253d6ad738188593"
+      sha256 "9db9d0cb64c4dd19392e1c3b2df9b35e2a460605feb76a3c09e7f11fb992252a"
     end
     on_intel do
       url "https://github.com/donutdaniel/slackcli/releases/download/v0.1.1/slackcli-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "38b764ac0f14a65aec2283fbb092380840409756451696bbe8380421b25d02b1"
+      sha256 "0a7932c77846529442bb1888f9845b07957a36bac15c33f791279d98676148cb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/donutdaniel/slackcli/releases/download/v0.1.1/slackcli-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6e5fb9d08cbffa02e760c06b1fd5e37aa04f2bfa35379d64c3063282780432d3"
+      sha256 "c59d03fefddab9fb876044158a427a46a12edcbd11ddb9adda4fb0474cbf6ca1"
     end
   end
 
