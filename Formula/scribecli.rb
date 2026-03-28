@@ -4,16 +4,14 @@ class Scribecli < Formula
   version "0.1.1"
   license "MIT"
 
-  bottle :unneeded
-
   on_macos do
     on_arm do
       url "https://github.com/donutdaniel/scribecli/releases/download/v0.1.1/scribecli-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "b68be9cf9c1acb54f4119083a0d1703619275893afaf56ad24be86c1376a1293"
+      sha256 "124438babddce034ffb99d51dc18243564839cc3c89c9a978c888b75d365e96e"
     end
     on_intel do
       url "https://github.com/donutdaniel/scribecli/releases/download/v0.1.1/scribecli-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "19a3fa61e4a58d880209e201ed9b6c90e06b5967f2bb2b07a302fc70061242de"
+      sha256 "94ef1967fdcc4ca03c6a285db3fbaa3a6c19ff3438833d56acd86828b7009b66"
     end
   end
 
