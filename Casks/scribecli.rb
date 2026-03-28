@@ -2,11 +2,11 @@ cask "scribecli" do
   version "0.1.1"
 
   on_arm do
-    sha256 "0b0cce01b637d5268064fb4e52e385f2438a8b280250f78953e819ca0c62d291"
+    sha256 "79843c548d558dbcd0900ee13a855e5144b0247819517079f91b7ce169079e4a"
     url "https://github.com/donutdaniel/scribecli/releases/download/v0.1.1/scribecli-v0.1.1-aarch64-apple-darwin.tar.gz"
   end
   on_intel do
-    sha256 "268052167abee91498cdf52b37d0269827c6b44310502f8449a593a0091cd068"
+    sha256 "fd97d83e98b63aa2c7cfcffe5556841782fb81b9f7ea320264ba0f1b39a33317"
     url "https://github.com/donutdaniel/scribecli/releases/download/v0.1.1/scribecli-v0.1.1-x86_64-apple-darwin.tar.gz"
   end
 
